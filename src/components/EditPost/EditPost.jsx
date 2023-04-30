@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Card, Form, Image } from 'react-bootstrap';
-import { FaPhotoVideo, FaRegGrin, FaVideo } from 'react-icons/fa';
+import { FaImages, FaRegGrin, FaVideo } from 'react-icons/fa';
 import { AuthContext } from '../../providers/AuthProvider';
 
 const EditPost = () => {
@@ -30,21 +30,21 @@ const EditPost = () => {
             </Form>
            </div>
           </Card.Title>
-          <div className="px-2 ">
+          <div >
             <hr />
           </div>
           <div className="d-flex justify-content-around py-2">
           <div className="d-flex align-items-center">
           <span><FaVideo className="fs-4 text-danger me-2"/></span>
-          <span>Live Video</span>
+          <span className='fw-semibold text-secondary fs-5'>Live Video</span>
           </div>
           <div className="d-flex align-items-center">
-          <span><FaPhotoVideo className="fs-4 text-success me-2"/></span>
-          <span>Photo/video</span>
+          <span><FaImages className="fs-4 text-success me-2"/></span>
+          <span className='fw-semibold text-secondary fs-5'>Photo/video</span>
           </div>
           <div className="d-flex align-items-center">
           <span><FaRegGrin className="fs-4 text-warning me-2"/></span>
-          <span>Feeling/activity</span>
+          <span className='fw-semibold text-secondary fs-5'>Feeling/activity</span>
           </div>
           </div>
         </Card.Body>

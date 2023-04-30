@@ -8,14 +8,18 @@ import ProfileCard from "../ProfileCard/ProfileCard";
 const Profile = () => {
   const {user} = useContext(AuthContext);
   return (
-      <div>
-        <Card className="rounded-3 pt-5">
+      <div >
+      <Container>
+      <Image style={{height: "450px", width: "100%"}} src="https://thumbs.dreamstime.com/b/abstract-nature-autumn-background-yellow-leaves-gold-78033112.jpg" fluid rounded />
+      </Container>
+      <div >
+        <Card className="rounded-3 pt-5 border-0">
         <Container >
-        <Card.Body>
-          <Card.Title className="d-flex align-items-center justify-content-between">
-           <div className="ps-2 d-flex align-items-center">
+        <Card.Body >
+          <Card.Title className="d-flex align-items-center justify-content-between ">
+           <div className="ps-2 d-flex align-items-center ">
            <Image
-            style={{ height: "170px", width: "170px" }}
+            style={{ height: "170px", width: "170px"}}
             src={
               user
                 && user.photoURL
@@ -80,6 +84,7 @@ const Profile = () => {
         </Col>
       </Row>
       </Container>
+      </div>
       </div>
     
   );
