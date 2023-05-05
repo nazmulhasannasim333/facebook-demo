@@ -33,7 +33,7 @@ const Login = () => {
     .then(result => {
       const signinGoogle = result.user;
       console.log(signinGoogle);
-      navigate("/")
+      navigate(from, {replace: true})
     })
     .catch(error => console.log(error))
   }
@@ -42,7 +42,7 @@ const Login = () => {
     .then(result => {
       const signinGithub = result.user;
       console.log(signinGithub);
-      navigate("/")
+      navigate(from, {replace: true})
     })
     .catch(error => console.log(error))
   }

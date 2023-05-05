@@ -51,7 +51,7 @@ const LeftSide = () => {
           <Image
             title="Account"
             style={{ height: "40px", width: "40px" }}
-            src="https://scontent.frjh5-1.fna.fbcdn.net/v/t39.30808-6/295615759_554978976330432_4255247095307477379_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=4mKrcwoDraIAX-FtUiF&_nc_ht=scontent.frjh5-1.fna&oh=00_AfBglhlVeDAVbPwKqJlcDJOHJ2_0ID4jt7lka3PDugvhkQ&oe=644FA2EE"
+            src="https://img.freepik.com/free-photo/fingers-note-report-journalist-filling_1150-1044.jpg?w=1380&t=st=1683268353~exp=1683268953~hmac=523c6eb2baaae2f74193f2f86ba827bf3941c3e3f57b1ea0be26203780b82556"
             roundedCircle
           />
           <span className="text-dark fs-5 fw-semibold ps-3">
@@ -62,7 +62,7 @@ const LeftSide = () => {
           <Image
             title="Account"
             style={{ height: "40px", width: "40px" }}
-            src="https://scontent.frjh5-1.fna.fbcdn.net/v/t39.30808-6/342338327_747805533477669_5048118909121662210_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8631f5&_nc_eui2=AeECY_rAasvXQxlN7MjJuSVOjB3uYTpUBoqMHe5hOlQGiheUqgeBoXnysKbfWa_TlANAH59qi2Y0IIqhZA818IVY&_nc_ohc=lmj9AIxA7FsAX83vgR7&_nc_ht=scontent.frjh5-1.fna&oh=00_AfCQ7LTvgEgiw0_7zPKwapO-J_6T9mPk59f8QrMpYMkd-g&oe=644FB8E0"
+            src="https://img.freepik.com/free-photo/professional-programmer-working-late-dark-office_1098-18705.jpg?w=1380&t=st=1683268464~exp=1683269064~hmac=11461d33795cc5751d6d22da72306e19dae74495b795c3719dd6d9e566cc5a54"
             rounded
           />
           <span className="text-dark fs-5 fw-semibold ps-3">

@@ -10,7 +10,7 @@ const Profile = () => {
   return (
       <div >
       <Container>
-      <Image style={{height: "450px", width: "100%"}} src="https://thumbs.dreamstime.com/b/abstract-nature-autumn-background-yellow-leaves-gold-78033112.jpg" fluid rounded />
+      <Image style={{height: "450px", width: "100%"}} src="https://img.freepik.com/premium-photo/hands-holding-smartphone-social-media-concept_23-2150208265.jpg?w=1380" fluid rounded />
       </Container>
       <div >
         <Card className="rounded-3 pt-5 border-0">

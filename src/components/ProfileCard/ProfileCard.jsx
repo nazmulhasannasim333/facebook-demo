@@ -31,7 +31,7 @@ const ProfileCard = () => {
           <Card.Text>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, repellendus ab! Qui ratione quos quas esse neque sint maxime id.
           </Card.Text>
-          <Card.Img  variant="bottom" src="https://scontent.frjh5-1.fna.fbcdn.net/v/t39.30808-6/343758723_1194370587932647_9015285138075439897_n.jpg?stp=cp6_dst-jpg&_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGv1hys2kxnLEQJQXJ5TUMZX_vCxED9z2tf-8LEQP3Pax9b-69L0xdtLZIJOuvdE5QMDnQOkFsDu0hLvSz3-Xtp&_nc_ohc=jHWVE1fxEXoAX_3zq51&_nc_ht=scontent.frjh5-1.fna&oh=00_AfBdbB43e6e4oiqSOU0zWMkHh-xwyyhSi_Pf9qV2_fK8xw&oe=64514DE6" />
+          <Card.Img  variant="bottom" src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=1380&t=st=1683267606~exp=1683268206~hmac=272f6bd069815a68d6602dd8b5713a8fff87cc85bdbbe516c8f498f52ebe65ed" />
           <p className="px-2 pt-4"><FaThumbsUp className="text-white fs-5 bg-primary rounded-circle p-1" /><FaHeart className="text-white fs-5 bg-danger rounded-circle p-1" /><FaRegGrinSquint className="text-warning fs-5 " /> {like ? "Md" : 'You, Md'} and {like ? <span>17</span> : <span>18</span> } others</p>
           <div className="px-2">
           <hr />

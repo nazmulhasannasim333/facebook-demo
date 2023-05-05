@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDo-0470v_Mdii3rK4H_qL1p-TUQ3BYZEs",
-  authDomain: "facebook-demo-project-2eadd.firebaseapp.com",
-  projectId: "facebook-demo-project-2eadd",
-  storageBucket: "facebook-demo-project-2eadd.appspot.com",
-  messagingSenderId: "371645463744",
-  appId: "1:371645463744:web:d7dd9cf9cd9f44bfc18125",
+  apiKey: "AIzaSyBMsO1JQra66CaO36Rkgy3TGqV00bacvTo",
+  authDomain: "facebook-demo-authentication.firebaseapp.com",
+  projectId: "facebook-demo-authentication",
+  storageBucket: "facebook-demo-authentication.appspot.com",
+  messagingSenderId: "628724937175",
+  appId: "1:628724937175:web:0462bf6bc25c08f4eedb92",
 };
 
 // Initialize Firebase
