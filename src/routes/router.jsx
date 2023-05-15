@@ -7,6 +7,7 @@ import Login from '../components/Login/Login';
 import Profile from '../components/Profile/Profile';
 import Register from '../components/Register/Register';
 import Terms from '../components/Terms/Terms';
+import Watch from '../components/Watch/Watch';
 import LoginLayout from '../layout/LoginLayout';
 import Main from '../layout/Main';
 import PrivateRoute from './PrivateRoute';
@@ -19,7 +20,7 @@ import PrivateRoute from './PrivateRoute';
         {
             path: '/',
             element: <Home />,
-            loader: () => fetch (`/post.json`)
+            loader: () => fetch (`https://facebook-demo-server.vercel.app/posts`)
         },
         {
           path: '/profile',
@@ -28,6 +29,10 @@ import PrivateRoute from './PrivateRoute';
         {
           path: "/terms",
           element: <Terms />
+        },
+        {
+          path: "/watch",
+          element: <Watch />
         }
       ]
     },

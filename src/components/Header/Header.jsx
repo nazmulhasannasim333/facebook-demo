@@ -76,9 +76,12 @@ const Header = () => {
               >
                 <FaHome className="fs-2 me-4" />
               </NavLink>
-              <Link title="Watch" className="text-secondary mx-5">
+              <NavLink title="Watch" to="/watch"
+                className={({ isActive }) =>
+                  isActive ? "text-primary mx-5" : "text-secondary mx-5"
+                } >
                 <BsTv className="fs-2 me-4" />
-              </Link>
+              </NavLink>
               <Link title="MArketplace" className="text-secondary mx-5">
                 <FaLandmark className="fs-2 me-4" />
               </Link>
